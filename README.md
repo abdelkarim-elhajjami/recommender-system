@@ -10,6 +10,6 @@ Nous avons à notre disposition un RDD "ratings" du type (userID, movieID, ratin
 Les données sont issues de la base de données "The MoviLens Datasets" :
 F. Maxwell Harper and Joseph A. Konstan. 2015. The MovieLens Datasets: History and Context. ACM Transactions on Interactive Intelligent Systems
 
-Nous avons résolu ce problème par deux méthodes : 
-* En utilisant ALS de la librairie MLlib
-* En développant  un algorithme de descente de gradient
+Deux méthodes sont proposées : 
+* ALS de la librairie MLlib
+* Algorithme de descente de gradient
