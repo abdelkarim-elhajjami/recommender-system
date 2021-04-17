@@ -7,10 +7,7 @@ d’un film par un utilisateur en se basant sur les évaluations de l’ensemble
 
 Nous avons à notre disposition un RDD "ratings" du type (userID, movieID, rating). 
 
-Les données sont fournies par le fichier ratings.dat, stockées au format ci-joint :  UserID::MovieID::Rating::Timestamp
-
 Les données sont issues de la base de données "The MoviLens Datasets" :
-
 F. Maxwell Harper and Joseph A. Konstan. 2015. The MovieLens Datasets: History and Context. ACM Transactions on Interactive Intelligent Systems
 
 Nous avons résolu ce problème par deux méthodes : 
