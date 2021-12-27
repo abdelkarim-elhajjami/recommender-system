@@ -1,4 +1,4 @@
-# Système de recommandation
+# Système de Recommandation avec PySpark
 
 Le problème que nous résolvons dans ce projet est un problème dit de filtrage collaboratif, qui permet de créer un système de recommandation permettant de prédire l’évaluation d’un film par un utilisateur en se basant sur les évaluations de l’ensemble des utilisateurs.
 
