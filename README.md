@@ -1,14 +1,14 @@
-# Système de Recommandation avec PySpark
+# Recommendation System with PySpark
 
-Le problème que nous résolvons dans ce projet est un problème dit de filtrage collaboratif, qui permet de créer un système de recommandation permettant de prédire l’évaluation d’un film par un utilisateur en se basant sur les évaluations de l’ensemble des utilisateurs.
+The problem we solve in this project is a so-called collaborative filtering problem, which creates a recommendation system to predict a user's rating of a movie based on the ratings of all users.
 
 ![image](https://user-images.githubusercontent.com/66040216/115104281-c02bd000-9f57-11eb-9c4c-c633b3489f5a.png)
 
-Nous avons à notre disposition un RDD "ratings" du type (userID, movieID, rating). 
+We have at our disposal a RDD "ratings" of the type (userID, movieID, rating).
 
-Les données sont issues de la base de données "The MoviLens Datasets" :
+The data comes from the "The MoviLens Datasets" database :
 F. Maxwell Harper and Joseph A. Konstan. 2015. The MovieLens Datasets: History and Context. ACM Transactions on Interactive Intelligent Systems
 
-Deux méthodes ont été proposées : 
-* ALS de la librairie MLlib
-* Algorithme de descente de gradient
+Two methods have been proposed :
+* ALS from MLlib library
+* Gradient descent algorithm
