@@ -7,7 +7,6 @@ The problem we solve in this project is a so-called collaborative filtering prob
 We have at our disposal a RDD "ratings" of the type (userID, movieID, rating).
 
 The data comes from the "The MoviLens Datasets" database :
-
 F. Maxwell Harper and Joseph A. Konstan. 2015. The MovieLens Datasets: History and Context. ACM Transactions on Interactive Intelligent Systems
 
 Two methods have been proposed :
